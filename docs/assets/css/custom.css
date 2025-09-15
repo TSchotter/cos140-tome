@@ -1,0 +1,41 @@
+/* Custom CSS for COS140 Tome */
+
+/* Ensure navigation is visible */
+.side-bar {
+    display: block !important;
+    visibility: visible !important;
+}
+
+.nav-list {
+    display: block !important;
+}
+
+/* Ensure main content doesn't interfere with navigation */
+.main-content {
+    margin-left: 0;
+}
+
+/* KaTeX math styling adjustments */
+.katex {
+    font-size: 1em;
+}
+
+.katex-display {
+    margin: 1em 0;
+}
+
+/* Ensure proper spacing for math blocks */
+.katex-display > .katex {
+    white-space: nowrap;
+}
+
+/* Fix any potential z-index issues */
+.side-bar {
+    z-index: 1000;
+}
+
+/* Ensure navigation links are clickable */
+.nav-list .nav-list-item .nav-list-link {
+    pointer-events: auto;
+    cursor: pointer;
+}

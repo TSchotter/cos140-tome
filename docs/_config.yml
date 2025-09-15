@@ -36,10 +36,6 @@ ga_tracking: G-HLW24YQRMH
 
 # Build settings
 markdown: kramdown
-kramdown:
-  math_engine: katex
-  math_engine_opts:
-    preview: true
 remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
